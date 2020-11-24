@@ -43,4 +43,4 @@ create table tir (
 );
 
 
-insert into 
+commit;
