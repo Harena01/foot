@@ -19,7 +19,8 @@ fonctions :
                             - 
 tables :    
             ✔ action (id , types , minutes) @done(20-11-24 15:22)
-            ✔ but (id , equipe , idAction, valeur) @done(20-11-24 15:22)
+            ✔ but (id , equipe , typeBut ,joueur ,idAction, valeur) @done(20-11-24 15:22)
             ✔ faute (id , equipe , joueur , typeCarton , idAction, valeur) @done(20-11-24 15:22)
             ✔ possession (equipe , valeur , idAction) @done(20-11-24 15:22)
             ✔ tir (id , equipe , typeTir , idAction, valeur) @done(20-11-24 15:23)
+            ✔ touche (id , equipe , idAction, valeur) @done(20-11-24 16:13)
