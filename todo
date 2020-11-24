@@ -1,0 +1,25 @@
+but : afichage des statistiques d'un match de foot 
+
+fonctionnalite : 
+                - affichage des statistiques (but , faute , carton , possession , tir , tir cadrer) 
+                - choix de la minute de jeux  
+                - insertion des données 
+
+fonctions : 
+            -model : 
+                        - insertAction (types,chrono,valeur)
+                        - getAction (chrono)
+                        - doublons
+                        - getChrono
+                        - getLastAction
+                        
+            -controller : 
+                            - trieData 
+                            - insertTrie 
+                            - 
+tables :    
+            ✔ action (id , types , minutes) @done(20-11-24 15:22)
+            ✔ but (id , equipe , idAction, valeur) @done(20-11-24 15:22)
+            ✔ faute (id , equipe , joueur , typeCarton , idAction, valeur) @done(20-11-24 15:22)
+            ✔ possession (equipe , valeur , idAction) @done(20-11-24 15:22)
+            ✔ tir (id , equipe , typeTir , idAction, valeur) @done(20-11-24 15:23)
